@@ -31,7 +31,5 @@ termcolor
 # nltp
 nltk
 unidecode
-os
-sys
 setuptools
 tokenize
