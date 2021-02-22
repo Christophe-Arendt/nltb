@@ -13,5 +13,5 @@ setup(name='nltb',
       test_suite='tests',
       # include_package_data: to install data from MANIFEST.in
       include_package_data=True,
-      scripts=['scripts/nltb-run','scripts/nltb-tools'],
+      scripts=['scripts/nltb-run'],
       zip_safe=False)
