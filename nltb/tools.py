@@ -43,6 +43,15 @@ def text_cleaning(text, regroup='POS-Lemmatizing', language='english', output='t
     """
     Natural Language Processing Text Cleaning Function,
     Choose language, and regrouping technique
+
+    # Arguments
+    text : string text
+    regroup : Different techniques to stem or lemmatize
+      options > [Lemmatizing, POS-Lemmatizing, Stemming]
+    language : Language for stop-words
+      options : ['en', etc.]
+    output : Type of output
+      options [text, token]
     """
     # Lower case
     text = text.lower()
